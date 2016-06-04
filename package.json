@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/auth0/lock-passwordless"
+    "url": "git://github.com/auth0/lock-passwordless#1c3c6610284722d59cd9aa6e9e07db854c9576b1"
   },
   "main": "lib/index.js",
   "scripts": {
@@ -25,7 +25,6 @@
     "design": "grunt design",
     "dist": "grunt dist",
     "prepublish": "grunt dist",
-    "preinstall": "dir",
     "postinstall": "echo \"WARNING: Version 2.2.0 introduces changes to the bundling process, see CHANGELOG.md.\"",
     "test": "zuul -- test/*/*.test.js",
     "test:browser": "zuul --local 8080 --disable-tunnel -- test/*/*.test.js",
